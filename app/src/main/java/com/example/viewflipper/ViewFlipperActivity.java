@@ -23,7 +23,7 @@ public class ViewFlipperActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("Slide Images with ViewFlipper");
+        getSupportActionBar().setTitle("ViewFlipper");
         //Liên kết với file giao diaạn vào Activity này
         setContentView(R.layout.activity_main);
         viewFlipper = findViewById(R.id.viewFlipperMain);
